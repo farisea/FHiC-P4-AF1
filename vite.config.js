@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/farisea/FHiC-P4-AF1/',
+  base: '/FHiC-P4-AF1/',
   plugins: [
     vue(),
     vueDevTools(),
