@@ -16,3 +16,7 @@ export default defineConfig({
     },
   },
 })
+
+module.exports = {
+  publicPath: '/FHiC-P4-AF1/'
+}
