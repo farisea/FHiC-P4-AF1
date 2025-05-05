@@ -1,11 +1,11 @@
 import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/farisea/FHiC-P4-AF1/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -17,6 +17,3 @@ export default defineConfig({
   },
 })
 
-module.exports = {
-  publicPath: '/FHiC-P4-AF1/'
-}
